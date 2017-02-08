@@ -3,6 +3,7 @@ import java.awt.Color;
 
 public class BlocksViewer {
   public static void main(String[] args){
+  //sets up the JFrame
   JFrame frame = new JFrame();
   frame.setSize(220, 520);
   frame.setTitle("Tetris Snapshot");
@@ -10,6 +11,7 @@ public class BlocksViewer {
   frame.setBackground(Color.GRAY);
   frame.setVisible(true);
 
+  //adds the differnt blocks at the desired locations
   LBlockComponent lBlock1 = new LBlockComponent(0, 420, 0);
   frame.add(lBlock1);
   frame.setVisible(true);
